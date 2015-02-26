@@ -24,7 +24,7 @@ With IE
   Next
   'msgBox(text)
   
-  outFile = "c:\Users\joshuasachtleben\Desktop\data.txt"
+  outFile = "c:\data.txt"
   Set objFile = objFSO.CreateTextFile(outFile, True)
   objFile.Write text
   objFile.Close
